@@ -7,6 +7,10 @@ this is a c++ project-WebServer
 - C++14
 - MySql
 
+## 功能
+
+- 利用单例模式与阻塞队列实现异步的日志系统，记录服务器运行状态；
+
 ## MYSQL
 linux中安装mysql:https://segmentfault.com/a/1190000023081074
 
