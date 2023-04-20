@@ -1,6 +1,12 @@
 # WebServer
 this is a c++ project-WebServer
 
+## 环境要求
+
+- Linux
+- C++14
+- MySql
+
 ## MYSQL
 linux中安装mysql:https://segmentfault.com/a/1190000023081074
 
