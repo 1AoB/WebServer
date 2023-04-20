@@ -48,7 +48,7 @@ INSERT INTO user(username, password) VALUES('wxn', 'wxn');
 select * from user;
 ```
 # Makefile(通过make命令找到当前路径下的Makefile文件,执行Makefile文件中的命令)
-<font color=red>特别注意:一定要再WebServer目录下执行bin/server才可正常运行,直接在bin目录下运行,访问会404</font>
+**特别注意:一定要再WebServer目录下执行bin/server才可正常运行,直接在bin目录下运行,访问会404**
 ```bash
 all:
         mkdir -p bin  #生成bin目录
