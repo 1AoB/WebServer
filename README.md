@@ -61,11 +61,12 @@ all:
 ```
 bulid目录下的Makefile文件:
 ```bash
+#CXX,CFLAGS,TARGET,OBJS是是个变量
 CXX = g++    # C++编译器的名称
-CFLAGS = -std=c++14 -O2 -Wall -g 
+CFLAGS = -std=c++14 -O2 -Wall -g # 表示用于 C 编译器的选项
 
-TARGET = server
-OBJS = ../code/log/*.cpp ../code/pool/*.cpp ../code/timer/*.cpp \
+TARGET = server # 最终生成的目标文件
+OBJS = ../code/log/*.cpp ../code/pool/*.cpp ../code/timer/*.cpp \ # 列出所以依赖的文件
        ../code/http/*.cpp ../code/server/*.cpp \
        ../code/buffer/*.cpp ../code/main.cpp
 
@@ -73,7 +74,7 @@ all: $(OBJS)
         $(CXX) $(CFLAGS) $(OBJS) -o ../bin/$(TARGET)  -pthread -lmysqlclient
 
 clean:
-        rm -rf ../bin/$(OBJS) $(TARGET)
+        rm -rf ../bin/$(OBJS) $(TARGET) # 当运行make clean命令时,它会删除../bin/$(OBJS)这条路径中列出来的文件和$(TARGET)可执行文件
 ```
 
 ---
@@ -122,6 +123,12 @@ eg: $(wildcard ./*.c)#表示在当前文件夹下寻找.c文件,并返回,返回
 #pattern表示要搜索的字符串模式,replacement表示要替换为的字符串,text是要进行替换的文本
 eg:$(pastsubst %.c,%.o,x.c bar.c)
 #表示将x.c bar.c中以.c为结尾的文件,转换为以.o为结尾的文件,所以:返回的格式为x.o bar.o
+5.clean的用法
+eg:
+clean:
+    rm -f $(OBJ_FILES) myapp
+解释:其中，rm -f命令用于强制删除文件或目录，$(OBJ_FILES)变量包含需要删除的所有目标文件路径，myapp是可执行文件名。
+当我们运行make clean命令时，它将会删除所有在$(OBJ_FILES)变量中列出的文件和myapp可执行文件。
 ```
 ---
 
