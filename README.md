@@ -158,7 +158,7 @@ eg: gcc test.c -o test -g
 
 
 
-http://192.168.8.128 是你在ubuntu中的服务器ip,8989是你在项目代码的timer文件夹下的main.cpp中,设置的端口号
+http://192.168.8.128 是你在ubuntu中的服务器ip,8989是你在项目代码的code文件夹下的main.cpp中,设置的端口号
 
 
 ![image](https://user-images.githubusercontent.com/78208268/233582058-cdaefda5-2d39-418a-8d54-e749c98db782.png)
