@@ -85,6 +85,7 @@ clean:
 eg:var=hello
 #获取变量的值 $(变量名)
 $(var)
+
 2. 预定义变量
 AR:归档维护程序的名称 , 默认值为ar
 CC:C编译器的名称,默认是cc
@@ -116,6 +117,7 @@ main.o:main.c #要生成的文件:需要的依赖
 # 优化后:
 %.o:%c
     gcc -c &< -o &@
+
 4. 函数
 1)$(wildcard pattern)#表示在pattern路径下查找:某种后缀的文件
 eg: $(wildcard ./*.c)#表示在当前文件夹下寻找.c文件,并返回,返回的格式为:a.c,b.c,c.c,d.c等等
