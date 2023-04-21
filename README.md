@@ -75,3 +75,9 @@ all: $(OBJS)
 clean:
         rm -rf ../bin/$(OBJS) $(TARGET)
 ```
+
+# 项目运行
+
+在执行bin/server命令之后,在浏览器中打开http://192.168.8.128:8989
+
+http://192.168.8.128 是你在ubuntu中的服务器ip,8989是你在项目代码的timer文件夹下的main.cpp中,设置的端口号
