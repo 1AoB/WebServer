@@ -61,7 +61,7 @@ all:
 ```
 bulid目录下的Makefile文件:
 ```bash
-CXX = g++
+CXX = g++    # C++编译器的名称
 CFLAGS = -std=c++14 -O2 -Wall -g 
 
 TARGET = server
@@ -91,6 +91,13 @@ CXX:C++编译器的名称,默认是g++
 $@:目标的完整名称
 $<:第一个依赖文件的名称
 $^:所有依赖文件
+
+eg: 
+app:main.c a.c b.c
+    gcc -c main.c a.c b.c -o app
+#使用变量修改后为:
+app:main.c a.c b.c
+    $(CC) -c &^ -o $@
 ```
 ---
 
