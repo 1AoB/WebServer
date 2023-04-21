@@ -125,8 +125,13 @@ eg:$(pastsubst %.c,%.o,x.c bar.c)
 ```
 ---
 
+# GDB调试
+eg:gcc -g -Wall program.c -o program.o
+
 # 项目运行
 
 在执行bin/server命令之后,在浏览器中打开http://192.168.8.128:8989
+![image](https://user-images.githubusercontent.com/78208268/233582058-cdaefda5-2d39-418a-8d54-e749c98db782.png)
+
 
 http://192.168.8.128 是你在ubuntu中的服务器ip,8989是你在项目代码的timer文件夹下的main.cpp中,设置的端口号
