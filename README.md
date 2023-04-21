@@ -115,6 +115,13 @@ main.o:main.c #要生成的文件:需要的依赖
 # 优化后:
 %.o:%c
     gcc -c &< -o &@
+4. 函数
+1)$(wildcard pattern)#表示在pattern路径下查找:某种后缀的文件
+eg: $(wildcard ./*.c)#表示在当前文件夹下寻找.c文件,并返回,返回的格式为:a.c,b.c,c.c,d.c等等
+2)$(patsubst pattern,replacement,text)
+#pattern表示要搜索的字符串模式,replacement表示要替换为的字符串,text是要进行替换的文本
+eg:$(pastsubst %.c,%.o,x.c bar.c)
+#表示将x.c bar.c中以.c为结尾的文件,转换为以.o为结尾的文件,所以:返回的格式为x.o bar.o
 ```
 ---
 
