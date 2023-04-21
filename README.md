@@ -126,7 +126,21 @@ eg:$(pastsubst %.c,%.o,x.c bar.c)
 ---
 
 # GDB调试
-eg:gcc -g -Wall program.c -o program.o
+eg: gcc test.c -o test -g
+1. gdb test # 进入调试,test是可执行的具有调试信息的文件
+2. q # 退出调试
+3. ctrl+l # 可以清屏
+4. l/list select.cpp:8 # 查看select.cpp的第8行左右的代码
+5. b 8 # 8是行号,表示:在第8行打上一个断点
+   b select.cpp:8 # 表示在select.cpp的第8行打上一个断点(因为一个大的c++项目会有更多分文件)
+6. i b # 表示: information break -> 查看断点信息
+7. run # 开启调试
+8. s/step # 表示向下单步调试
+   finish # 表示跳出函数体
+9. next # 表示向下执行一句,且直接就不进入函数体
+10. p/print 变量名 # 打印变量值
+    ptype 变量名 # 打印变量的类型
+11. c/continue # 继续运行,直到下一个断点才停下 
 
 # 项目运行
 
