@@ -94,7 +94,7 @@ $^:所有依赖文件
 
 eg: 
 app:main.c a.c b.c #要生成的文件:需要的依赖
-    gcc -c main.c a.c b.c -o app #如果依赖这文件夹中存在,就使用这些依赖执行这行命令
+    gcc -c main.c a.c b.c -o app #如果这些依赖文件夹中存在,就使用这些依赖执行这行命令
 #使用变量修改后为:
 app:main.c a.c b.c
     $(CC) -c &^ -o $@
@@ -105,13 +105,13 @@ app:main.c a.c b.c
     两个%匹配的是同一个字符串
 eg:
 add.o:add.c #要生成的文件:需要的依赖
-    gcc -c add.c -o add.o #如果依赖这文件夹中存在,就使用这些依赖执行这行命令
+    gcc -c add.c -o add.o #如果这些依赖文件夹中存在,就使用这些依赖执行这行命令
 div.o:div.c #要生成的文件:需要的依赖
-    gcc -c div.c -o div.o #如果依赖这文件夹中存在,就使用这些依赖执行这行命令
+    gcc -c div.c -o div.o #如果这些依赖文件夹中存在,就使用这些依赖执行这行命令
 mult.o:mult.c #要生成的文件:需要的依赖
-    gcc -c mult.c -o mult.o #如果依赖这文件夹中存在,就使用这些依赖执行这行命令
+    gcc -c mult.c -o mult.o #如果这些依赖文件夹中存在,就使用这些依赖执行这行命令
 main.o:main.c #要生成的文件:需要的依赖
-    gcc -c main.c -o main.o #如果依赖这文件夹中存在,就使用这些依赖执行这行命令
+    gcc -c main.c -o main.o #如果这些依赖文件夹中存在,就使用这些依赖执行这行命令
 # 优化后:
 %.o:%c
     gcc -c &< &@
