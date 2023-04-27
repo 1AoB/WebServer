@@ -40,7 +40,7 @@ int main() {
         if(ret == -1) {
             perror("select");
             exit(-1);
-        } else if(ret == 0) {
+        } else if(ret == 0) {//如果没有任何事件发生，则返回0
             continue;
         } else if(ret > 0) {
             // 说明检测到了有文件描述符的对应的缓冲区的数据发生了改变
