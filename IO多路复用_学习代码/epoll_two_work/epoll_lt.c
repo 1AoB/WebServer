@@ -1,3 +1,4 @@
+//默认是水平触发(LT),和普通epoll.c代码一样
 #include <stdio.h>
 #include <arpa/inet.h>
 #include <unistd.h>
