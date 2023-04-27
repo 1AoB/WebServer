@@ -1,6 +1,9 @@
 # WebServer
 this is a c++ project-WebServer
 
+# 项目描述
+采用epoll+Reactor模式去实现的服务器
+
 ## 环境要求
 
 - Linux
