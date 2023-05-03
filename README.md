@@ -9,7 +9,7 @@ this is a c++ project-WebServer
 >
 >Proactor是快递到了并且送货上门,不用你自己去取;
 >
->Reactor是需要你自己去读数据,然后才能处理读到的事假.
+>Reactor是需要你自己去读数据,然后才能处理读到的事件.
 >
 >Proactor是已经帮你读好了,你直接去处理事件就行了)
 
