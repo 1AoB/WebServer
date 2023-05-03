@@ -2,7 +2,7 @@
 this is a c++ project-WebServer
 
 # 项目描述
-采用epoll+Proactor模式去实现的服务器
+采用epoll+Reactor模式去实现的服务器 
 >(注:
 >
 >Reactor是快递到了快递站,然后发消息让你自己去取.
