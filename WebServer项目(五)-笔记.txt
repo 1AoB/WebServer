@@ -207,7 +207,7 @@ setsockopt(lfd,SOL_SOCKET,SO_REUSEPORT,&optval,sizeof(optval));//lfd监听的文
 ```
 《------------------------------------------------》
 
-IO多路复用
+IO多路复用(还是同步的)
 epoll的两种工作模式:
 默认是水平触发(LT),还有边沿触发(ET)
 
