@@ -1,0 +1,108 @@
+2023-04-20 21:39:39.564255 [info] : ========== Server init ==========
+2023-04-20 21:39:39.564267 [info] : Port:8989, OpenLinger: false
+2023-04-20 21:39:39.564270 [info] : Listen Mode: ET, OpenConn Mode: ET
+2023-04-20 21:39:39.564272 [info] : LogSys level: 1
+2023-04-20 21:39:39.564274 [info] : srcDir: /home/wxncom/projects/WebServer/resources/
+2023-04-20 21:39:39.564276 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2023-04-20 21:39:39.564278 [info] : ========== Server start ==========
+2023-04-20 21:39:42.940301 [info] : Client[18](192.168.8.1:37350) in, userCount:1
+2023-04-20 21:39:42.940489 [info] : Client[18] in!
+2023-04-20 21:39:42.940845 [info] : Client[19](192.168.8.1:37606) in, userCount:2
+2023-04-20 21:39:42.940873 [info] : Client[19] in!
+2023-04-20 21:39:43.040783 [info] : Client[21](192.168.8.1:37862) in, userCount:3
+2023-04-20 21:39:43.040818 [info] : Client[21] in!
+2023-04-20 21:39:43.041879 [info] : Client[23](192.168.8.1:38118) in, userCount:4
+2023-04-20 21:39:43.041901 [info] : Client[23] in!
+2023-04-20 21:39:43.041916 [info] : Client[24](192.168.8.1:38374) in, userCount:5
+2023-04-20 21:39:43.041921 [info] : Client[24] in!
+2023-04-20 21:39:43.043060 [info] : Client[26](192.168.8.1:38630) in, userCount:6
+2023-04-20 21:39:43.043095 [info] : Client[26] in!
+2023-04-20 21:41:54.187056 [info] : ========== Server init ==========
+2023-04-20 21:41:54.187063 [info] : Port:8989, OpenLinger: false
+2023-04-20 21:41:54.187065 [info] : Listen Mode: ET, OpenConn Mode: ET
+2023-04-20 21:41:54.187067 [info] : LogSys level: 1
+2023-04-20 21:41:54.187069 [info] : srcDir: /home/wxncom/projects/WebServer/resources/
+2023-04-20 21:41:54.187071 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2023-04-20 21:41:54.187073 [info] : ========== Server start ==========
+2023-04-20 21:46:23.894373 [info] : Client[18](192.168.8.1:47335) in, userCount:1
+2023-04-20 21:46:23.894460 [info] : Client[18] in!
+2023-04-20 21:46:23.896076 [info] : Client[20](192.168.8.1:47591) in, userCount:2
+2023-04-20 21:46:23.896172 [info] : Client[20] in!
+2023-04-20 21:46:23.931107 [info] : Client[19](192.168.8.1:47847) in, userCount:3
+2023-04-20 21:46:23.931271 [info] : Client[19] in!
+2023-04-20 21:46:23.931636 [info] : Client[21](192.168.8.1:48103) in, userCount:4
+2023-04-20 21:46:23.931659 [info] : Client[21] in!
+2023-04-20 21:46:23.931669 [info] : Client[22](192.168.8.1:48615) in, userCount:5
+2023-04-20 21:46:23.931673 [info] : Client[22] in!
+2023-04-20 21:46:23.931800 [info] : Client[23](192.168.8.1:48871) in, userCount:6
+2023-04-20 21:46:23.931843 [info] : Client[23] in!
+2023-04-20 21:46:39.276320 [info] : Verify name:wxn pwd:wxn
+2023-04-20 21:46:39.356787 [error]: RequestLine Error
+2023-04-20 21:46:39.379543 [info] : Client[19] quit!
+2023-04-20 21:46:39.382566 [info] : Client[19](192.168.8.1:47847) quit, UserCount:5
+2023-04-20 21:46:39.384317 [info] : Client[19](192.168.8.1:52967) in, userCount:6
+2023-04-20 21:46:39.384529 [info] : Client[19] in!
+2023-04-20 21:46:44.685054 [info] : Client[23] quit!
+2023-04-20 21:46:44.685420 [info] : Client[23](192.168.8.1:48871) quit, UserCount:5
+2023-04-20 21:46:47.478222 [info] : Client[23](192.168.8.1:54247) in, userCount:6
+2023-04-20 21:46:47.478333 [info] : Client[23] in!
+2023-04-20 21:46:52.899708 [info] : Verify name:wxn pwd:wxn
+2023-04-20 21:46:52.900782 [error]: RequestLine Error
+2023-04-20 21:46:52.901124 [info] : Client[21] quit!
+2023-04-20 21:46:52.901213 [info] : Client[21](192.168.8.1:48103) quit, UserCount:5
+2023-04-20 21:46:52.910943 [info] : Client[21](192.168.8.1:56807) in, userCount:6
+2023-04-20 21:46:52.911035 [info] : Client[21] in!
+2023-04-20 21:47:00.826662 [info] : Verify name:qqq pwd:qqq
+2023-04-20 21:47:00.928133 [error]: RequestLine Error
+2023-04-20 21:47:00.928303 [info] : Client[22] quit!
+2023-04-20 21:47:00.928461 [info] : Client[22](192.168.8.1:48615) quit, UserCount:5
+2023-04-20 21:47:00.942510 [info] : Client[22](192.168.8.1:58599) in, userCount:6
+2023-04-20 21:47:00.942533 [info] : Client[22] in!
+2023-04-20 21:47:11.059344 [info] : Verify name:wxn pwd:wxn
+2023-04-20 21:47:11.060361 [error]: RequestLine Error
+2023-04-20 21:47:11.060596 [info] : Client[20] quit!
+2023-04-20 21:47:11.060726 [info] : Client[20](192.168.8.1:47591) quit, UserCount:5
+2023-04-20 21:47:11.074139 [info] : Client[20](192.168.8.1:63207) in, userCount:6
+2023-04-20 21:47:11.074161 [info] : Client[20] in!
+2023-04-20 21:47:20.700261 [info] : Verify name:aaa pwd:aaa
+2023-04-20 21:47:20.712127 [error]: RequestLine Error
+2023-04-20 21:47:20.712253 [info] : Client[22] quit!
+2023-04-20 21:47:20.712331 [info] : Client[22](192.168.8.1:58599) quit, UserCount:5
+2023-04-20 21:47:20.726472 [info] : Client[22](192.168.8.1:65511) in, userCount:6
+2023-04-20 21:47:20.726498 [info] : Client[22] in!
+2023-04-20 21:47:26.361666 [info] : Client[18] quit!
+2023-04-20 21:47:26.362136 [info] : Client[18](192.168.8.1:47335) quit, UserCount:5
+2023-04-20 21:47:27.090624 [info] : Verify name:aaa pwd:aaa
+2023-04-20 21:47:27.091368 [error]: RequestLine Error
+2023-04-20 21:47:27.091483 [info] : Client[19] quit!
+2023-04-20 21:47:27.091560 [info] : Client[19](192.168.8.1:52967) quit, UserCount:4
+2023-04-20 21:47:27.107274 [info] : Client[18](192.168.8.1:2280) in, userCount:5
+2023-04-20 21:47:27.107293 [info] : Client[18] in!
+2023-04-20 21:47:38.805583 [info] : Client[19](192.168.8.1:6376) in, userCount:6
+2023-04-20 21:47:38.805788 [info] : Client[19] in!
+2023-04-20 21:48:38.971029 [info] : Client[22] quit!
+2023-04-20 21:48:38.971552 [info] : Client[22](192.168.8.1:65511) quit, UserCount:5
+2023-04-20 21:48:42.344608 [info] : Client[18] quit!
+2023-04-20 21:48:42.344742 [info] : Client[18](192.168.8.1:2280) quit, UserCount:4
+2023-04-20 21:48:42.344752 [info] : Client[20] quit!
+2023-04-20 21:48:42.344800 [info] : Client[20](192.168.8.1:63207) quit, UserCount:3
+2023-04-20 21:48:42.344807 [info] : Client[19] quit!
+2023-04-20 21:48:42.344848 [info] : Client[19](192.168.8.1:6376) quit, UserCount:2
+2023-04-20 21:48:42.344855 [info] : Client[21] quit!
+2023-04-20 21:48:42.344895 [info] : Client[21](192.168.8.1:56807) quit, UserCount:1
+2023-04-20 21:48:42.344902 [info] : Client[23] quit!
+2023-04-20 21:48:42.344950 [info] : Client[23](192.168.8.1:54247) quit, UserCount:0
+2023-04-20 21:52:25.371727 [info] : Client[18](192.168.8.1:6592) in, userCount:1
+2023-04-20 21:52:25.371821 [info] : Client[18] in!
+2023-04-20 21:52:25.430790 [info] : Client[19](192.168.8.1:7360) in, userCount:2
+2023-04-20 21:52:25.430945 [info] : Client[19] in!
+2023-04-20 21:52:25.445531 [info] : Client[20](192.168.8.1:8128) in, userCount:3
+2023-04-20 21:52:25.445567 [info] : Client[20] in!
+2023-04-20 21:52:25.445579 [info] : Client[21](192.168.8.1:8384) in, userCount:4
+2023-04-20 21:52:25.445585 [info] : Client[21] in!
+2023-04-20 21:52:25.445673 [info] : Client[22](192.168.8.1:8640) in, userCount:5
+2023-04-20 21:52:25.445685 [info] : Client[22] in!
+2023-04-20 21:52:25.446429 [info] : Client[24](192.168.8.1:8896) in, userCount:6
+2023-04-20 21:52:25.446601 [info] : Client[24] in!
+2023-04-20 21:53:30.582128 [info] : Client[18] quit!
+2023-04-20 21:53:30.582699 [info] : Client[18](192.168.8.1:6592) quit, UserCount:5

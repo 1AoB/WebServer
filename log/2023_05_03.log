@@ -1,0 +1,42 @@
+2023-05-03 17:38:44.010388 [info] : ========== Server init ==========
+2023-05-03 17:38:44.010424 [info] : Port:8989, OpenLinger: false
+2023-05-03 17:38:44.010429 [info] : Listen Mode: ET, OpenConn Mode: ET
+2023-05-03 17:38:44.010448 [info] : LogSys level: 1
+2023-05-03 17:38:44.010451 [info] : srcDir: /home/wxncom/projects/WebServer/resources/
+2023-05-03 17:38:44.010453 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2023-05-03 17:38:44.010455 [info] : ========== Server start ==========
+2023-05-03 17:39:25.167789 [info] : ========== Server init ==========
+2023-05-03 17:39:25.167799 [info] : Port:8989, OpenLinger: false
+2023-05-03 17:39:25.167801 [info] : Listen Mode: ET, OpenConn Mode: ET
+2023-05-03 17:39:25.167803 [info] : LogSys level: 1
+2023-05-03 17:39:25.167805 [info] : srcDir: /home/wxncom/projects/WebServer/resources/
+2023-05-03 17:39:25.167807 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2023-05-03 17:39:25.167810 [info] : ========== Server start ==========
+2023-05-03 17:40:17.253658 [info] : ========== Server init ==========
+2023-05-03 17:40:17.253672 [info] : Port:8989, OpenLinger: false
+2023-05-03 17:40:17.253675 [info] : Listen Mode: ET, OpenConn Mode: ET
+2023-05-03 17:40:17.253678 [info] : LogSys level: 1
+2023-05-03 17:40:17.253695 [info] : srcDir: /home/wxncom/projects/WebServer/resources/
+2023-05-03 17:40:17.253697 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2023-05-03 17:40:17.253699 [info] : ========== Server start ==========
+2023-05-03 17:40:21.319709 [info] : Client[18](192.168.8.1:24538) in, userCount:1
+2023-05-03 17:40:21.320039 [info] : Client[18] in!
+2023-05-03 17:40:21.320077 [info] : Client[34](192.168.8.1:24794) in, userCount:2
+2023-05-03 17:40:21.320086 [info] : Client[34] in!
+2023-05-03 17:58:59.378728 [info] : ========== Server init ==========
+2023-05-03 17:58:59.378745 [info] : Port:8989, OpenLinger: false
+2023-05-03 17:58:59.378748 [info] : Listen Mode: ET, OpenConn Mode: ET
+2023-05-03 17:58:59.378750 [info] : LogSys level: 1
+2023-05-03 17:58:59.378752 [info] : srcDir: /home/wxncom/projects/WebServer/resources/
+2023-05-03 17:58:59.378754 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2023-05-03 17:58:59.378756 [info] : ========== Server start ==========
+2023-05-03 17:59:03.989192 [info] : Client[18](192.168.8.1:4064) in, userCount:1
+2023-05-03 17:59:03.989628 [info] : Client[18] in!
+2023-05-03 17:59:03.989674 [info] : Client[36](192.168.8.1:4320) in, userCount:2
+2023-05-03 17:59:03.989683 [info] : Client[36] in!
+2023-05-03 17:59:04.022108 [info] : Client[38](192.168.8.1:5856) in, userCount:3
+2023-05-03 17:59:04.022409 [info] : Client[38] in!
+2023-05-03 17:59:04.022427 [info] : Client[40](192.168.8.1:6112) in, userCount:4
+2023-05-03 17:59:04.022432 [info] : Client[40] in!
+2023-05-03 17:59:04.022445 [info] : Client[41](192.168.8.1:6368) in, userCount:5
+2023-05-03 17:59:04.022449 [info] : Client[41] in!
