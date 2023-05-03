@@ -3,6 +3,15 @@ this is a c++ project-WebServer
 
 # 项目描述
 采用epoll+Proactor模式去实现的服务器
+>(注:
+>
+>Reactor是快递到了快递站,然后发消息让你自己去取.
+>
+>Proactor是快递到了并且送货上门,不用你自己去取;
+>
+>Reactor是需要你自己去读数据.
+>
+>Proactor是已经帮你读好了,就剩下你自己去处理事件了)
 
 ## 环境要求
 
