@@ -2,7 +2,7 @@
 this is a c++ project-WebServer
 
 # 项目描述
-采用epoll+Reactor模式去实现的服务器 
+- 采用epoll+Reactor模式去实现的高并发服务器 ;
 >(注:
 >
 >Reactor是快递到了快递站,然后发消息让你自己去取.
@@ -12,6 +12,8 @@ this is a c++ project-WebServer
 >Reactor是需要你自己去读数据,然后才能处理读到的事件.
 >
 >Proactor是已经帮你读好了,你直接去处理事件就行了)
+
+- 利用标准库容器封装char，实现自动增长的缓冲区;
 
 ## 环境要求
 
