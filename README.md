@@ -180,3 +180,8 @@ http://192.168.8.128 是你在ubuntu中的服务器ip,8989是你在项目代码�
 
 
 ![image](https://user-images.githubusercontent.com/78208268/233582058-cdaefda5-2d39-418a-8d54-e749c98db782.png)
+
+# 压力测试
+cd webbench-1.5/
+make
+./webbench -c 5000 -t 5 http://192.168.8.128:8989/
