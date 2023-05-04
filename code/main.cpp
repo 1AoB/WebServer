@@ -1,6 +1,6 @@
 /*
- * @Author       : mark
- * @Date         : 2020-06-18
+ * @Author       : 1AoB
+ * @Date         : 2023-05-04
  * @copyleft Apache 2.0
  */
 #include <unistd.h>
@@ -12,10 +12,9 @@ int main()
     // daemon(1, 0);
 
     // http://192.168.8.128:8989
-    WebServer server(//将WebServer封装成一个类
-        8989 /*1316*/, 3, 60000, false,    /* 端口 ET模式 60000:timeoutMs=>超时时间 优雅退出  */
-        3306, "root", "root", "webserver", /* Mysql配置 端口号，用户名，密码，库的名称*/
-        12, 6, true, 1, 1024);             /* 数据库连接池的数量 线程池的数量 日志开关 日志等级 日志异步队列容量 */
-    
-    server.Start();//开启服务端
+    WebServer server(
+        8989 /*1316*/, 3, 60000, false,    /* 端口 ET模式 timeoutMs 优雅退出  */
+        3306, "root", "root", "webserver", /* Mysql配置 */
+        12, 6, true, 1, 1024);             /* 连接池数量 线程池数量 日志开关 日志等级 日志异步队列容量 */
+    server.Start();
 }
