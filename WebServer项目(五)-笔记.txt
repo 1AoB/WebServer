@@ -200,6 +200,11 @@ const char *inet_ntop(int af, const void *src, char *dst, socklen_t size);
 主动断开的一方会有TIME_WAIT状态,在linux中一般是(30s)x2,只有多了1min以后,这个端口才会被释放掉,
 但是在1min以内,端口是被占用的,如果我们想要重启这个服务器,那我们可以使用端口复用技术去复用这个端口
 
+端口复用的代码应该放在服务器程序的               **bind() 函数调用之前**          。
+在调用 bind() 函数之前，可以使用 setsockopt() 函数来设置 SO_REUSEADDR 和 SO_REUSEPORT 选项，
+以便在服务器程序退出后可以立即重新启动，而无需等待一段时间，并且多个进程可以同时绑定到同一个端口上。
+
+
  在bind绑定ip 端口之前,加上这两句话就行:
 ```cpp
 int optval = 1;
